@@ -1,0 +1,172 @@
+/* CSS Document */
+html { 
+ max-height:100%;/*футер закриплён с низу*/
+}
+
+body{
+	max-height: 100%;
+    overflow-x: hidden;/* чтоб элементы не выходили за края страницы*/
+	margin: 0px;/* край отступ*/
+	padding: 0px; /*заполнение*/
+	background: url(/img/1.jpg) no-repeat center top / 100%;/*top - к верхней границе, cover(100%) - полный размер */
+	background-color: black;
+	overflow-x: hidden;
+}
+
+
+
+.head{
+	width: auto;
+	height: 80px;
+	background: black;
+	opacity: 0.7;
+}
+
+
+.menu Gl{
+	font-size: 35px;
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+	
+}
+.menu Gl a{
+	text-decoration:none;
+	color: white;
+}
+
+.menu Gl a:hover{
+	color: black;
+	text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 35px white, 0 0 40px white, 0 0 50px white, 0 0 75px white;/* тень*/
+	
+}
+
+
+/* ------home-------*/
+
+.home{
+	height: 100%;
+}
+
+
+/*-------Тело главной страници----------------Тело главной страници----------------Тело главной страници----------------Тело главной страници----------------Тело главной страници----------------Тело главной страници-----*/
+
+
+
+/*    --Список клиентов--    */
+.block{
+	float: left;
+}
+.hat{
+	background-color: #AAAAAA;
+	opacity: 0.8;
+	width: 870px;
+	height: 70px;
+	margin: 5px 5px 0px;
+	padding: 5px 5px 0px;
+}
+.button_create{
+	float: right;
+}
+.button_search{
+	float: left;
+}
+#button_create{
+	float: right;
+}
+
+h2{
+	padding: 5px 5px 5px;
+	margin: 0 0 0;
+}
+.clients_list{
+	background-color: #AAAAAA;
+	margin: 0px 5px 5px;
+	padding: 0px 5px 5px;
+	text-align: center;
+	width: 870px;
+	height: 400px;
+	overflow-y: scroll;
+}
+
+.list{
+	text-align: left;
+}
+
+
+
+/*    --изменение клиента--    */
+
+
+.client{
+	float: right;
+	width: 350px;
+	height: 400px;
+	background-color: #AAAAAA;
+	text-align: center;
+	margin: 5px 5px 5px;
+	padding: 5px 5px 5px;
+}
+
+.table{
+	margin: auto;
+	height: auto;
+	float: left;
+}
+
+.checli a {
+	text-decoration:none;
+	color: white;
+}
+
+.checli a:hover{
+	color: black;
+	text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 35px white, 0 0 40px white, 0 0 50px white, 0 0 75px white;/* тень*/
+	
+}
+
+/*------конец тела главной страници-------------конец тела главной страници-------------конец тела главной страници-------------конец тела главной страници-------------конец тела главной страници-------------конец тела главной страници-------------конец тела главной страници------- */
+
+
+
+/* ------home-------*/
+/*----- footer -----*/
+
+footer{
+	text-decoration: line-through;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	position: absolute;/*футер закриплён с низу*/
+    bottom: 0;
+	opacity: 0.6;
+	
+}
+#rights{
+	float: right;
+	margin: 10px;
+	color: aliceblue;
+}
+
+
+.contact {
+	float: left;
+	padding-left: 20px;
+}
+.contact img{
+	margin: 3px;
+	width: 28px;
+}
+
+.contact img:hover{
+	box-shadow: 0 0 25px black;/* тень*/
+	width: 29px;
+	margin: 3px;
+}
+
+.contact pochta img{
+	border-radius: 10px 10px 10px 10px;
+	background: #FFFFFF;
+}
+
+/*----- footer -----*/
